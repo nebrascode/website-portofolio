@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web ini merupakan website portofolio pribadi.">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nabraska | Portofolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar-container">
+            <div class="logo-wrap">
+                <p> <span class="text-custom">Nebras</span> / Web Developer</p>
+                <nav id="humb">
+                    <a href="#sidebar"><img src="assets/img/menu.png" alt="icon-menu"></a>
+                </nav>
+            </div>
+            <nav class="nav-list">
+                <ul id="nav-desktop">
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul id="nav-mobile" class="">
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="content-profile" id="profile">
+                <div class="header">
+                    <h1 id="hello">HELLO, I'M</h1>
+                    <h1>Nabraska Amarilys Sholikhah</h1>
+                    <p>Web Frontend Developer</p>
+                    <div class="button">
+                        <button><a href="#portofolio">Portofolio</a></button>
+                        <button><a href="assets/CV_Nabraska Amarilys.pdf" target="_blank">See my CV</a></button>
+                    </div>
+                </div>
+                <aside>
+                    <div class="header">
+                        <img src="assets/img/profil.png" alt="profil" height="100">
+                        <table>
+                            <tr>
+                                <th>Nama</th>
+                                <td>Nabraska Amarilys Sholikhah</td>
+                            </tr>
+                            <tr>
+                                <th>Prodi</th>
+                                <td>Sistem Informasi</td>
+                            </tr>
+                            <tr>
+                                <th>Lahir</th>
+                                <td>13 Februari 2003</td>
+                            </tr>
+                            <tr>
+                                <th>Status</th>
+                                <td>Mahasiswa</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="data">
+                        <ul>
+                            <li><a href="https://www.instagram.com/enraska/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="www.linkedin.com/in/nabraska-amarilys-sholikhah-5090b4217"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/nebrascode"><i class="fab fa-github"></i></a></li>
+                            <li><a href="mailto:nabraskaamarilys@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+            <section class="section-about" id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p> I'm an information systems student at Amikom Yogyakarta University. Currently, I contribute to the
+                    development of the website and enthusiastic to start a career in the tech world, especially focused
+                    on the front-end web. I have skills in designing and developing exciting and responsive web sites by
+                    making use of HTML, CSS, and javascript.
+                </p>
+            </div>
+
+                <div class="row">
+                    <article class="card">
+                        <h3>Experience</h3>
+                        <ul>
+                            <li>
+                                <p>Student Frontend-Backend Developer</p>
+                            </li>
+                            <li>
+                                <p>Instruktur Divisi Web Programming </p>
+                            </li>
+                            <li>
+                                <p>Anggota Departemen Pengembangan Sumber Daya Manusia</p>
+                            </li>
+                            <li>
+                                <p>Asisten Praktikum Pengenalan Perancangan Web</p>
+                            </li>
+                            <li>
+                                <p>Asisten Praktikum Pemrograman Terstruktur</p>
+                            </li>
+                            <li>
+                                <p>Asisten Praktikum Pengantar Teknologi Informasi</p>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>
+                                <p>S1 - Prodi Sistem Informasi, Amikom Yogyakarta</p>
+                            </li>
+                            <li>
+                                <p>MA Mu'allimaat Muhammadiyah Yogyakarta</p>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+
+            </section>
+
+            <section class="section-portofolio" id="portofolio">
+                <h2>Portofolio</h2>
+                <p>Slide my portofolio >></p>
+                <div class="scroll-container">
+                    <img src="assets/img/1.png" alt="portofolio">
+                    <img src="assets/img/2.png" alt="portofolio">
+                    <img src="assets/img/3.png" alt="portofolio">
+                    <img src="assets/img/4.png" alt="portofolio">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        Website Portofolio - Nebras &#169; 2023
+    </footer>
+
+    <script>
+       const menuBtn=document .getElementById('humb');
+       const nav=document .getElementById('nav-mobile');
+       menuBtn.addEventListener('click', () => {
+        nav.classList.toggle("active")
+       })
+    </script>
+</body>
+
+</html>
